@@ -22,7 +22,7 @@ const Projects: React.FC = () => {
       title: "E-Commerce Platform",
       description: `Built an e-commerce platform with React, Next.js and GraphQL that currently has over 1.000.000 active users.
        Led the development team, delivered over 200 features with weekly releases. Integrated analytics, 3rd party services, optimized bundle size, core web vitals, improved accessibility`,
-      tags: ["React", "Next.js", "Redux", "Stripe", "TypeScript", "Bloomreach", "GraphQL", "Redis"],
+      tags: ["React", "Next.js", "Redux", "TypeScript", "Bloomreach", "GraphQL", "Redis"],
       image: "/e-commerce.webp",
       liveUrl: "http://delhaize.be/",
       featured: true
