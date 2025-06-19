@@ -20,7 +20,7 @@ const Projects: React.FC = () => {
     {
       id: 1,
       title: "E-Commerce Platform",
-      description: `Built an e-commerce platform with React, Next.js and GraphQL that currently has over 1.000.000 active users.
+      description: `Built an e-commerce platform with React, Next.js and GraphQL that currently has over 30.000.000 of active users.
        Led the development team, delivered over 200 features with weekly releases. Integrated analytics, 3rd party services, optimized bundle size, core web vitals, improved accessibility`,
       tags: ["React", "Next.js", "Redux", "TypeScript", "Bloomreach", "GraphQL", "Redis"],
       image: "/e-commerce.webp",
@@ -29,7 +29,7 @@ const Projects: React.FC = () => {
     },
     {
       id: 2,
-      title: "Kiosk device web App",
+      title: "Kiosk Device Web App",
       description: "Developed a kiosk device app that allows users to scan their loyalty cards, get promotions information, burn loyalty points, etc.",
       tags: ["React", "GraphQL"],
       image: "/kiosk.png",
@@ -44,8 +44,8 @@ const Projects: React.FC = () => {
     },
     {
       id: 4,
-      title: "Dog hotel website",
-      description: "Contributed to the development of a dog hotel website with React and Typescript. Mentored junior developers and improved code quality, test coverage.",
+      title: "Dog Hotel Website",
+      description: "Contributed to the development of a Dog Hotel Website with React and Typescript. Mentored junior developers and improved code quality, test coverage.",
       tags: ["React", "Typescript"],
       image: "/dogs.webp",
       liveUrl: "https://www.doghotel.com.ua/",

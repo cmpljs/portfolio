@@ -7,12 +7,10 @@ import './Hero.css';
 const Hero: React.FC = () => {
   const handleDownloadResume = async () => {
     try {
-      // Try to download as PDF first, fallback to text
       const resumeUrl = '/resume.pdf';
       const response = await fetch(resumeUrl);
       
       if (response.ok) {
-        // PDF exists, download it
         const blob = await response.blob();
         const url = window.URL.createObjectURL(blob);
         const link = document.createElement('a');
@@ -23,7 +21,6 @@ const Hero: React.FC = () => {
         document.body.removeChild(link);
         window.URL.revokeObjectURL(url);
       } else {
-        // Fallback to text file
         const textResponse = await fetch('/resume.txt');
         if (textResponse.ok) {
           const blob = await textResponse.blob();

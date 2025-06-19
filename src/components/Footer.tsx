@@ -12,14 +12,14 @@ const Footer: React.FC = () => {
       icon: FaLinkedin
     },
     {
-      name: 'Email',
-      url: 'mailto:oleksandrilliushchenko@gmail.com',
-      icon: FaEnvelope
-    },
-    {
       name: 'Telegram',
       url: 'https://t.me/heycmpl',
       icon: FaTelegram
+    },
+    {
+      name: 'Email',
+      url: 'mailto:oleksandrilliushchenko@gmail.com',
+      icon: FaEnvelope
     },
     {
       name: 'GitHub',
