@@ -53,9 +53,7 @@
 }
 
 .social-link:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 6px 20px rgba(30, 58, 138, 0.35);
-  background: linear-gradient(45deg, rgba(30, 64, 175, 0.85), rgba(30, 58, 138, 0.85));
+  /* Hover effects removed */
 }
 
 .footer-bottom {

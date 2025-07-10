@@ -95,9 +95,7 @@
 }
 
 .tech-badge:hover {
-  border-color: rgba(30, 58, 138, 0.85);
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.15);
-  color: rgba(30, 58, 138, 0.85);
+  /* Hover effects removed */
 }
 
 @media (max-width: 768px) {

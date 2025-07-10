@@ -86,9 +86,7 @@ html {
 }
 
 .btn-primary:hover {
-  background: var(--hover-gradient);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.25);
+  /* Hover effects removed */
 }
 
 .btn-secondary {
@@ -98,10 +96,7 @@ html {
 }
 
 .btn-secondary:hover {
-  background: rgba(30, 58, 138, 0.85);
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.25);
+  /* Hover effects removed */
 }
 
 /* Responsive design */

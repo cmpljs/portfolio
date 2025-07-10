@@ -23,8 +23,7 @@
 }
 
 .blog-card:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-  transform: translateY(-5px);
+  /* Hover effects removed */
 }
 
 .blog-image {
@@ -42,7 +41,7 @@
 }
 
 .blog-card:hover .blog-image img {
-  transform: scale(1.05);
+  /* Hover effects removed */
 }
 
 .blog-overlay {
@@ -60,7 +59,7 @@
 }
 
 .blog-card:hover .blog-overlay {
-  opacity: 1;
+  /* Hover effects removed */
 }
 
 .read-icon {
@@ -71,7 +70,7 @@
 }
 
 .blog-card:hover .read-icon {
-  transform: translateX(0);
+  /* Hover effects removed */
 }
 
 .blog-content {
@@ -153,9 +152,7 @@
 }
 
 .read-more-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.25);
-  background: linear-gradient(45deg, rgba(30, 64, 175, 0.85), rgba(30, 58, 138, 0.85));
+  /* Hover effects removed */
 }
 
 .blog-cta {
@@ -176,9 +173,7 @@
 }
 
 .view-all-btn:hover {
-  background: rgba(30, 58, 138, 0.85);
-  color: white;
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.25);
+  /* Hover effects removed */
 }
 
 @media (max-width: 768px) {

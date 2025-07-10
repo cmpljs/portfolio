@@ -20,8 +20,7 @@
 }
 
 .project-card:hover {
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
-  transform: translateY(-5px);
+  /* Hover effects removed */
 }
 
 .project-card.featured {
@@ -43,7 +42,7 @@
 }
 
 .project-card:hover .project-image img {
-  transform: scale(1.05);
+  /* Hover effects removed */
 }
 
 .featured-badge {
@@ -118,10 +117,7 @@
 }
 
 .project-link:hover {
-  background: rgba(30, 58, 138, 0.85);
-  color: white;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(30, 58, 138, 0.25);
+  /* Hover effects removed */
 }
 
 @media (max-width: 768px) {
