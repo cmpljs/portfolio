@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="hero-name">Oleksandr Illiushchenko</h1>
-          <h2 className="hero-title">Senior Frontend Engineer | React, TypeScrit, Next.js, GraphQL</h2>
+          <h2 className="hero-title">Senior Software Engineer | React, Next.js, TypeScrit, GraphQL</h2>
           <p className="hero-description">I build fast, accessible, and scalable web apps.</p>
           
           <div className="hero-buttons">
@@ -103,7 +103,7 @@ const Hero: React.FC = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <IconWrapper icon={FaDownload} /> Download Resume
+              <IconWrapper icon={FaDownload} color="white" /> Download Resume
             </motion.button>
           </div>
 

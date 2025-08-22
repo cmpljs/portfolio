@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub, FaLinkedin, FaEnvelope, FaTelegram } from 'react-icons/fa';
+import { SiCodewars } from '@icons-pack/react-simple-icons';
 import IconWrapper from './IconWrapper';
 import './Footer.css';
 
@@ -25,6 +26,11 @@ const Footer: React.FC = () => {
       name: 'GitHub',
       url: 'https://github.com/cmpljs/',
       icon: FaGithub
+    },
+    {
+      name: 'CodeWars',
+      url: 'https://www.codewars.com/users/cmpljs',
+      icon: SiCodewars
     },
   ];
 
@@ -71,7 +77,7 @@ const Footer: React.FC = () => {
                   whileTap={{ scale: 0.95 }}
                   transition={{ duration: 0.3 }}
                 >
-                  <IconWrapper icon={social.icon} />
+                  <IconWrapper color={'white'} icon={social.icon} />
                 </motion.a>
               ))}
             </motion.div>

@@ -4,8 +4,7 @@ import './About.css';
 
 const About: React.FC = () => {
   const techStack = [
-    'React', 'TypeScript', 'Next.js', 'Redux', 'GraphQL', 'Git', 'Jest', 'AWS',
-    'Node.js', 'Webpack', 'Jenkins', 'Bloomreach', 'Redis', 'Storybook', 'Docker', 'MongoDB', 
+    'React', 'TypeScript', 'Next.js', 'GraphQL', 'Node.js', 'Redux','Jest', 'Storybook', 'Webpack', 'Bloomreach', 'Redis', 'Git', 'Jenkins', 'AWS', 'Docker', 'MongoDB', 
   ];
 
   const softSkills = [
